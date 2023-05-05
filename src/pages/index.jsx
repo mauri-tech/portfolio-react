@@ -16,9 +16,13 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoRoyal from '@/images/logos/royal.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
+import logoCosmic from '@/images/logos/cosmic.svg'
+import logoSwappy from '@/images/logos/swappy.svg'
+import logoTna from '@/images/logos/tna.svg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { formatDate } from '@/lib/formatDate'
@@ -139,35 +143,35 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Cosmic Agency',
+      title: 'Marketing Specialist',
+      logo: logoCosmic,
+      start: '2017',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
+      company: 'Swappy',
+      title: 'CEO & Co-Founder',
+      logo: logoSwappy,
+      start: '2020',
+      end: '2022',
+    },
+    {
+      company: 'Royal Prestige',
+      title: 'Direct Sales Lead',
+      logo: logoRoyal,
+      start: '2015',
       end: '2019',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'The New Agency',
+      title: 'Brand Manager',
+      logo: logoTna,
+      start: '2013',
+      end: '2015',
     },
   ]
 
@@ -175,7 +179,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Work Experience</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -263,7 +267,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Hi, I'm Mauricio Trevino 🖖
+            Hi, Im Mauricio Trevino 🖖
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           I am a highly motivated and creative professional with a blend of <strong> product management and sales expertise. </strong> I have a <strong> meticulous eye for detail </strong> and a passion for <strong> interface design,</strong> taking pleasure in creating both functional and beautiful products. 
