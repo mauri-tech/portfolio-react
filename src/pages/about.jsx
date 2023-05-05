@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Mauricio Trevino</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="I’m Mauricio Trevino. I live in Monterrey, Mexico and this text does not talk about work ."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -66,30 +66,38 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+              When I’m not working, you can usually find me doing something active
+               like swimming or playing golf. I also love going to the gym and keeping 
+               myself fit. If I’m not being active, you might find me in the kitchen, 
+               where I love to cook and experiment with new recipes. I’m particularly 
+               good at making carne asada, and I love to host friends and family for dinner parties.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+              Another thing that I’m passionate about is technology,
+               which is why I started my own TikTok channel where I share my 
+               thoughts and opinions about the latest gadgets and tech news.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+              I grew up in Monterrey, Nuevo Leon, and I’ve been influenced by many successful marketers,
+               business people, startup founders, and content creators. 
+               I believe that my ability to understand what people want and deliver something amazing has 
+               been shaped by these experiences.
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+              For me, sensibility, gratitude, humility, prudence, respect, and responsibility are the most important values in life. 
+              I strive to live my life according to these values and treat others with kindness and compassion.
+              </p>
+              <p>
+              Im currently facing a big challenge: <em>pivoting into web development.</em> 
+              I’ve always wanted to learn how to code, so I’ve given myself six months to learn everything I need to know.
+              My goal is to be able to build solutions on my own in the near future.
+              </p>
+              <p>
+              Thanks for stopping by and getting to know me a little better!
+              </p>
+              <p>
+
+
               </p>
             </div>
           </div>

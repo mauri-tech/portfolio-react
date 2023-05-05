@@ -36,8 +36,8 @@ export default function Uses() {
         />
       </Head>
       <SimpleLayout
-        title="My Favorite Tools for Building amazing things."
-        intro="As a front-end developer with a strong passion for UX and UI design, I've had the opportunity to work with a variety of tools that help me bring my ideas to life. From powerful frameworks to intuitive design tools, I've curated a list of my favorite software and gadgets that keep me productive and inspired. Whether you're a fellow developer or just someone looking to improve your digital toolkit, this list has got you covered.."
+        title="My Favorite Tools for Building amazing things 🚀 "
+        intro="As a front-end developer with a strong passion for UX and UI design, I've had the opportunity to work with a variety of tools that help me bring my ideas to life. From powerful frameworks to intuitive design tools, I've curated a list of my favorite software and gadgets that keep me productive and inspired. Whether you're a fellow developer or just someone looking to improve your digital toolkit, this list has got you covered✌️"
       >
         <div className="space-y-20">
         <ToolsSection title="Frameworks/Libraries">
