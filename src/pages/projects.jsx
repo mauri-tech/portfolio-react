@@ -11,9 +11,9 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'LocalEats',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
+      'We create a solution to match local foods with foodies.',
     link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoPlanetaria,
   },
