@@ -1,8 +1,8 @@
-import Head from 'next/head'
-
-import { Card } from '@/components/Card'
-import { Section } from '@/components/Section'
-import { SimpleLayout } from '@/components/SimpleLayout'
+import Head from 'next/head';
+import { Card } from '@/components/Card';
+import { Section } from '@/components/Section';
+import { SimpleLayout } from '@/components/SimpleLayout';
+import sectionData from "./toolData/data.js";
 
 function ToolsSection({ children, ...props }) {
   return (
@@ -11,7 +11,7 @@ function ToolsSection({ children, ...props }) {
         {children}
       </ul>
     </Section>
-  )
+  );
 }
 
 function Tool({ title, href, children }) {
@@ -22,7 +22,7 @@ function Tool({ title, href, children }) {
       </Card.Title>
       <Card.Description>{children}</Card.Description>
     </Card>
-  )
+  );
 }
 
 export default function Uses() {
@@ -40,12 +40,23 @@ export default function Uses() {
         intro="As a front-end developer with a strong passion for UX and UI design, I've had the opportunity to work with a variety of tools that help me bring my ideas to life. From powerful frameworks to intuitive design tools, I've curated a list of my favorite software and gadgets that keep me productive and inspired. Whether you're a fellow developer or just someone looking to improve your digital toolkit, this list has got you covered✌️"
       >
         <div className="space-y-20">
-        <ToolsSection title="Frameworks/Libraries">
-  <Tool title="React">
-    A powerful JavaScript library for building user interfaces.
-  </Tool>
-</ToolsSection>
+          {sectionData.map((section) => (
+            <ToolsSection key={section.title} title={section.title}>
+              {section.information.map((subsection) => (
+                <Tool key={subsection.name} title={subsection.name}>
+                  {subsection.description}
+                </Tool>
+              ))}
+            </ToolsSection>
+          ))}
+        </div>
+      </SimpleLayout>
+    </>
+  );
+}
 
+
+{/* 
 <ToolsSection title="Languages">
   <Tool title="HTML">
     A markup language used for creating web pages and applications.
@@ -140,10 +151,4 @@ export default function Uses() {
   <Tool title="Webflow">
     A web design and development platform for creating responsive websites without code.
   </Tool>
-</ToolsSection>
-
-        </div>
-      </SimpleLayout>
-    </>
-  )
-}
+</ToolsSection> */}
