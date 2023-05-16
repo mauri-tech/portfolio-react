@@ -25,7 +25,7 @@ Feel free to reach out to me through any of these channels. I'm open to collabor
 - "Resume" section providing a link to download my resume and showcasing a list of my proficiencies
 - Footer with links to my GitHub, LinkedIn, and other profiles on different platforms
 
-## Usage
+## Usage/Deployed App
 
 To view my portfolio, you can visit [here](https://portfolio-react-virid-eta.vercel.app/). Feel free to explore the different sections and check out my projects and skills. You can also reach out to me through the contact form if you have any inquiries or opportunities.
 ## How to Run
