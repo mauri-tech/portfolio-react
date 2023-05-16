@@ -9,6 +9,7 @@ import {
   InstagramIcon,
   LinkedInIcon,
   TwitterIcon,
+  TikTokIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -102,17 +103,20 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
-                Follow on Twitter
+            <SocialLink href="https://github.com/mauri-tech" icon={GitHubIcon}>
+             Follow on GitHub
+            </SocialLink>
+            <SocialLink href="https://www.linkedin.com/in/mauricio-trevino91/" icon={LinkedInIcon} className="mt-4">
+              Follow on LinkedIn
+            </SocialLink>
+            <SocialLink href="https://www.tiktok.com/@maubotti" icon={TikTokIcon} className="mt-4">
+             Follow on TikTok
               </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-                Follow on Instagram
+            <SocialLink href="https://twitter.com/MauTrevino__" icon={TwitterIcon} className="mt-4">
+             Follow on Twitter
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-                Follow on GitHub
-              </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-                Follow on LinkedIn
+              <SocialLink href="https://www.instagram.com/estoycomomauricio/" icon={InstagramIcon} className="mt-4">
+  Follow on Instagram
               </SocialLink>
               <SocialLink
                 href="mailto:mauricio.trevinon91@gmail.com"
