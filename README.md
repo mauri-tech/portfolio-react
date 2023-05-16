@@ -39,3 +39,7 @@ To run this portfolio locally on your machine, follow these steps:
 5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
 This portfolio template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+
+## Screenshot
+
+![Portfolio Landingpage](/src/images/Screenshot.png)
