@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { Card } from '@/components/Card';
 import { Section } from '@/components/Section';
 import { SimpleLayout } from '@/components/SimpleLayout';
-import sectionData from "./toolData/data.js";
+import sectionData from "../lib/data.js";
 
 function ToolsSection({ children, ...props }) {
   return (

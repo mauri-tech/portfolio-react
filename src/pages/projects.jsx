@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import projectsData from "./projectData/project.js";
+import projectsData from "../lib/project.js";
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
