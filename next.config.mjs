@@ -1,6 +1,6 @@
-const nextMDX = require('@next/mdx');
-const remarkGfm = require('remark-gfm');
-const rehypePrism = require('@mapbox/rehype-prism');
+import nextMDX from '@next/mdx'
+import remarkGfm from 'remark-gfm'
+import rehypePrism from '@mapbox/rehype-prism'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -9,7 +9,7 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
-};
+}
 
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
@@ -17,6 +17,6 @@ const withMDX = nextMDX({
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypePrism],
   },
-});
+})
 
-module.exports = withMDX(nextConfig);
+export default withMDX(nextConfig)
