@@ -5,7 +5,7 @@ const projectsData = [
     {
     name: "Resumate",
     description: "Resumate is a revolutionary resume creation platform powered by AI. It allows users to effortlessly create standout resumes by leveraging OpenAI's key. The project involved building the front-end and back-end using React and Node.js, with GraphQL and Apollo for efficient data management.",
-    link: { href: 'https://github.com/mauri-tech/resumate', label: 'github.com/your-username/resumate' },
+    link: { href: 'https://github.com/mauri-tech/resumate', label: 'github.com/mauri-tech/resumate' },
     },
     {
     name: "ThermoFoods",
