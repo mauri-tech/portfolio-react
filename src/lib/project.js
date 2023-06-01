@@ -4,17 +4,17 @@ const projectsData = [
     information: [
     {
     name: "Resumate",
-    description: "Resumate is a revolutionary resume creation platform powered by AI. It allows users to effortlessly create standout resumes by leveraging OpenAI's key. The project involved building the front-end and back-end using React and Node.js, with GraphQL and Apollo for efficient data management.",
+    description: "Resumate is an innovative resume creation platform that incorporates AI technology. It utilizes OpenAI's key to enable users to effortlessly generate exceptional resumes. The project involved developing the front-end and back-end using React and Node.js, while leveraging GraphQL and Apollo for efficient data management.",
     link: { href: 'https://github.com/mauri-tech/resumate', label: 'github.com/mauri-tech/resumate' },
     },
     {
     name: "ThermoFoods",
-    description: "This project focuses on helping people control their weight by selecting healthy recipes that are appropriate for the current weather. Using two APIs, one for recipes and the other for obtaining the current temperature using geolocation, the application provides options for light and fresh meals on hot days and options for more caloric meals on cold days.",
+    description: "ThermoFoods is a project focused on helping individuals manage their weight through the selection of healthy recipes tailored to the current weather. It utilizes two APIs, one for retrieving recipe information and the other for obtaining real-time temperature data using geolocation. The application provides users with options for light and fresh meals on hot days and more caloric meals on cold days.",
     link: { href: 'https://github.com/mauri-tech/ThermoFood-App', label: 'github.com/mauri-tech/ThermoFood-App' },
     },
     {
     name: "LocalEats",
-    description: "Local Eats is a web application that allows users to post their favorite self-made dishes along with information about where the dish can be bought, the time when the dish is available, and the price. The application is built using HTML, CSS (Tailwind), JavaScript, Node.js, Express.js, SQL, Sequelize, Bcrypt for password security, and uses the Geolocation API of the browser.",
+    description: "LocalEats is a web application that allows users to share their favorite homemade dishes, along with information on where to buy them, availability times, and pricing details. The application is built using HTML, CSS (Tailwind), JavaScript, Node.js, Express.js, SQL, Sequelize, and Bcrypt for password security. It also incorporates the Geolocation API to enhance the user experience.",
     link: { href: 'https://github.com/mauri-tech/localeats', label: 'github.com/mauri-tech/localeats' },
     }
     ]
